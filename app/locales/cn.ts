@@ -122,7 +122,7 @@ const cn = {
       SubTitle(used: any, total: any) {
            let result = total / used;
         result = result.toFixed(2);
-        return `本月已使用 ${result}%，订阅总额 100%`;
+        return `本月已使用 ${result}，订阅总额 100%`;
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
