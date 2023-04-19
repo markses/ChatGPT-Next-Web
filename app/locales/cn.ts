@@ -120,7 +120,7 @@ const cn = {
     Usage: {
       Title: "余额查询",
       SubTitle(used: any, total: any) {
-        return `本月已使用 $${(total / used).toFixed(2)}，订阅总额 100%`;
+       return `本月已使用 ${(used / total * 100).toFixed(2)}%，订阅总额 100%`;
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
